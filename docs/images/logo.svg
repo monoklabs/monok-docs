@@ -26,17 +26,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="107.76653"
-     inkscape:cy="70.90519"
+     inkscape:cx="235.73503"
+     inkscape:cy="48.215597"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
+     inkscape:window-width="960"
      inkscape:window-height="1025"
-     inkscape:window-x="0"
+     inkscape:window-x="960"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata3363">
     <rdf:RDF>
@@ -55,9 +55,41 @@
      id="layer1"
      transform="translate(0,-852.68026)">
     <path
-       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 134.31463,853.20677 c -37.14131,2.87329 -70.16291,15.80994 -100.21881,66.8125 -5.7226,11.95063 -20.9915,6.95404 -31.1874993,10.53125 -3.74080007,1.30638 -2.40670006,15.60078 -0.7812,18.09375 8.6798003,8.02596 23.9636993,-6.21039 30.0936993,18.6875 0.5672,2.30383 2.5406,7.58209 3.5313,10.3125 40.5852,111.85513 198.60234,97.83613 206.34373,-45.84375 -6.63698,-3.36727 -12.95972,-20.81452 14.75,-22.46875 0.0221,0.022 0.0402,0.0405 0.0625,0.0625 1.87557,-0.11865 3.6088,-0.16996 5.28125,-0.1875 1.67232,0.0175 3.40568,0.0688 5.28125,0.1875 0.0223,-0.022 0.0404,-0.0405 0.0625,-0.0625 27.71483,1.65423 21.41823,19.10148 14.78125,22.46875 7.74139,143.67988 165.72731,157.69888 206.3125,45.84375 0.99069,-2.73041 2.96403,-8.00867 3.53125,-10.3125 6.13004,-24.89789 21.41393,-10.66154 30.09375,-18.6875 1.62547,-2.49297 2.95953,-16.78737 -0.78125,-18.09375 -10.19596,-3.57721 -25.46489,1.41938 -31.1875,-10.53125 -30.05592,-51.00256 -63.07753,-63.93921 -100.21875,-66.8125 -1.55628,-0.0321 -3.09296,-0.0264 -4.59375,0 -46.52462,0.81733 -66.85489,29.06119 -89.6875,44.28125 -12.78334,-1.21094 -18.36736,-8.42351 -33.59375,-7.96875 -15.2081,-0.44391 -20.81918,6.75864 -33.59377,7.96875 -23.5691,-15.71103 -44.4801,-45.30722 -94.2812,-44.28125 z m 1.6875,9.03125 c 49.2931,0 89.25,40.47706 89.25,90.40625 0,49.92913 -39.9569,90.40623 -89.25,90.40623 -49.29321,0 -89.25001,-40.4771 -89.25001,-90.40623 0,-49.92919 39.9568,-90.40625 89.25001,-90.40625 z m 252.40622,0 c 49.29315,0 89.25,40.47706 89.25,90.40625 0,49.92913 -39.95685,90.40623 -89.25,90.40623 -49.29315,0 -89.25,-40.4771 -89.25,-90.40623 0,-49.92919 39.95685,-90.40625 89.25,-90.40625 z"
+       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.58363998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 173.32546,859.71366 c -21.67717,1.67699 -40.9499,9.22732 -58.49171,38.99446 -3.33997,6.97487 -12.25149,4.05864 -18.202287,6.14645 -2.183303,0.76247 -1.404653,9.10524 -0.455943,10.56025 5.06589,4.68425 13.98618,-3.62463 17.56391,10.90675 0.33085,1.34461 1.48277,4.42521 2.061,6.01879 23.6871,65.28317 115.91228,57.10104 120.43048,-26.75624 -3.87365,-1.96526 -7.56385,-12.14817 8.60866,-13.11367 0.0103,0.0103 0.0225,0.0225 0.0374,0.0374 1.09467,-0.0693 2.10623,-0.0992 3.08234,-0.10935 0.97607,0.0103 1.9877,0.0401 3.08233,0.10935 0.0103,-0.0103 0.0225,-0.0225 0.0374,-0.0374 16.17549,0.9655 12.50055,11.14841 8.62692,13.11367 4.51823,83.85728 96.72511,92.03941 120.41228,26.75624 0.57817,-1.59358 1.72993,-4.67418 2.06096,-6.01879 3.57773,-14.53138 12.49802,-6.2225 17.56392,-10.90675 0.94872,-1.45501 1.72729,-9.79778 -0.45596,-10.56025 -5.95077,-2.08781 -14.86232,0.82842 -18.20232,-6.14645 -17.54177,-29.76714 -36.81455,-37.31747 -58.49162,-38.99446 -0.90831,-0.0186 -1.80519,-0.0145 -2.68112,0 -27.15362,0.47705 -39.01918,16.96128 -52.3452,25.84431 -7.46089,-0.70675 -10.71994,-4.91631 -19.60668,-4.65087 -8.87602,-0.259 -12.1509,3.94464 -19.60665,4.65087 -13.75589,-9.16957 -25.96038,-26.44308 -55.02628,-25.84431 z m 0.98489,5.27104 c 28.76941,0 52.08987,23.62401 52.08987,52.76468 0,29.14063 -23.32046,52.76465 -52.08987,52.76465 -28.76951,0 -52.08992,-23.62402 -52.08992,-52.76465 0,-29.14067 23.32041,-52.76468 52.08992,-52.76468 z m 147.31437,0 c 28.76946,0 52.08984,23.62401 52.08984,52.76468 0,29.14063 -23.32038,52.76465 -52.08984,52.76465 -28.76946,0 -52.0899,-23.62402 -52.0899,-52.76465 0,-29.14067 23.32044,-52.76468 52.0899,-52.76468 z"
        id="path4261"
        inkscape:connector-curvature="0" />
-  </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.06251144px;line-height:1.25;font-family:Dingbats;-inkscape-font-specification:Dingbats;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.17656279"
+       x="102.90278"
+       y="1041.1522"
+       id="text832"><tspan
+         sodipodi:role="line"
+         id="tspan830"
+         x="102.90278"
+         y="1041.1522"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:4;font-family:Manjari;-inkscape-font-specification:'Manjari Bold';stroke-width:1.17656279">MONOK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.06251144px;line-height:1.25;font-family:Dingbats;-inkscape-font-specification:Dingbats;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.17656279"
+       x="267.58203"
+       y="1041.7054"
+       id="text832-2"><tspan
+         sodipodi:role="line"
+         id="tspan830-9"
+         x="267.58203"
+         y="1041.7054"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Manjari;-inkscape-font-specification:Manjari;stroke-width:1.17656279"> DOCS</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot852"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion854"><rect
+           id="rect856"
+           width="352.54324"
+           height="208.09143"
+           x="191.92899"
+           y="-73.059181" /></flowRegion><flowPara
+         id="flowPara858"></flowPara></flowRoot>  </g>
 </svg>
