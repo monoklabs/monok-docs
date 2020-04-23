@@ -20,7 +20,6 @@ Features
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 
 .. image:: ../images/newdraft.png
-   :width: 500
 
 Installation
 ------------
