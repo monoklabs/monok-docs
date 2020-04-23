@@ -15,9 +15,11 @@ The API is only accessible by our paying customers through a unique API key prov
 each user. The API key is a token that a client provides when making API calls, the key is
 added in the request header as such:
 
-Install the package with pip::
+Request by Feed ID (businessfeed1) articles ::
 
-    $ pip install read-the-docs-template
+    $ curl -XGET -i 'https://www.monok.com/api/v1/feed?q=businessfeed1'
+    -H "Content-Type: application/json"
+    -H "x-api-token: [ API KEY ]"
 
 Get a Feed
 ------------
