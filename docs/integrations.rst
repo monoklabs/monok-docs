@@ -19,7 +19,7 @@ Features
 - Quotes are styled accordingly to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 
-.. image:: ../images/newdraft.png
+.. image:: images/newdraft.png
 
 Installation
 ------------
