@@ -29,17 +29,33 @@ Acces the generated articles of a feed as a JSON
 **Example:** http://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
 
 	
-+------------+------------+
-| Param      |Description |
-+============+============+
-| q | column 2   |
-+------------+------------+
-| f | column 2   |
-+------------+------------+
-| c (optional) | column 2   |
-+------------+------------+
-| body row 1 | column 2   |
-+------------+------------+
++----------------+--------------------------------------------------+
+| Param          | Description                                      |
++================+==================================================+
+| q              | The name of the feed (example:‘myPoliticsNews’)  |
++----------------+--------------------------------------------------+
+| f (optional)   | The offset (f=0 return the first 10 articles, f=35 returns 10 articles after the first 35 articles), default is 0|
++----------------+--------------------------------------------------+
+| c (optional)   | column 2                                         |
++----------------+--------------------------------------------------+
+| sort (optional)| column 2                                         |
++----------------+--------------------------------------------------+
+
+
+===============   ===================================================
+ Param                       Description                        
+===============   ===================================================
+q	          The name of the feed (example:‘myPoliticsNews’)            
+f (optional)      The offset (f=0 return the first 10 articles, f=35 
+	          returns 10 articles after the first 35 articles), default is 0         
+c (optional)      A filter of comma-separated category
+                  names. (example: ‘business,politics’),
+                  default is all categories.
+sort (optional)   The type of sort you wish the list of generated content 
+                  to have, either ‘popularity’ for most popular first or ‘date’ for
+		  latest articles first, default is popularity.
+===============   ===================================================
+
 
 Get an Article
 ------------
