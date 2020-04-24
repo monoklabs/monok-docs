@@ -26,26 +26,13 @@ Get a Feed
 Acces the generated articles of a feed as a JSON
 
 **Type:** GET-Request
-**Example:** http://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
-
-	
-+----------------+--------------------------------------------------+
-| Param          | Description                                      |
-+================+==================================================+
-| q              | The name of the feed (example:‘myPoliticsNews’)  |
-+----------------+--------------------------------------------------+
-| f (optional)   | The offset (f=0 return the first 10 articles, f=35 returns 10 articles after the first 35 articles), default is 0|
-+----------------+--------------------------------------------------+
-| c (optional)   | column 2                                         |
-+----------------+--------------------------------------------------+
-| sort (optional)| column 2                                         |
-+----------------+--------------------------------------------------+
+**Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
 
 
 ===============   ===================================================
  Param                       Description                        
 ===============   ===================================================
-q	          The name of the feed (example:‘myPoliticsNews’)            
+q	          The Id of the feed (example:‘myPoliticsNews’)            
 f (optional)      The offset (f=0 return the first 10 articles, f=35 
 	          returns 10 articles after the first 35 articles), default is 0         
 c (optional)      A filter of comma-separated category
@@ -60,3 +47,11 @@ sort (optional)   The type of sort you wish the list of generated content
 Get an Article
 ------------
 This endpoint will return the entire article and all its meta-data as a JSON.
+
+**Type:** GET-Request
+**Example:** https://www.monok.com/api/v1/puff/protesters-block-streets-near-hong-kong-airport-after-nigh
+t-of-violence
+
+===============   ===================================================
+ URL Endpoint       https://www.monok.com/api/v1/puff/​[article Id]                        
+===============   ===================================================

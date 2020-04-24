@@ -1,4 +1,4 @@
-Integrations with other systems
+Integration with Wordpress
 ========
 
 There are multiple ways of integrating with established publishing tools
@@ -16,7 +16,7 @@ Features
 
 - Automatic Category setup
 - Automatic Featured Image setup
-- Quotes are styled accordingly to your theme
+- Quotes are styled according to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 
 .. image:: images/newdraft.png
