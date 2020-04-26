@@ -49,8 +49,7 @@ Get an Article
 This endpoint will return the entire article and all its meta-data as a JSON.
 
 **Type:** GET-Request
-**Example:** https://www.monok.com/api/v1/puff/protesters-block-streets-near-hong-kong-airport-after-nigh
-t-of-violence
+**Example:** https://www.monok.com/api/v1/puff/protesters-block-streets-near-hong-kong-airport-after-night-of-violence
 
 ===============   ===================================================
  URL Endpoint       https://www.monok.com/api/v1/puff/​[article Id]                        
