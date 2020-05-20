@@ -14,13 +14,24 @@ Prefix            Value                        Description
                                                simple implies you wish to match the category of an article. 
                                                Match any article with the category "music"
 category          music                        Match any article with the category "music"
+title             crisis                       Match any article with the word "crisis" in its title
 text              revolution                   Match with the word "revolution" in its article text
-nationality       french                       Match any article where the word "french" is used to denote nationality
+nationality       french                       Matches the word "french" when used to denote nationality
 religion          catholic
 ordinal           first
 authors           robert
 cause_of_death    illnes
 ideology          socialist
 person            Peter Parker
-title             
+organization      who                          Matches the abbreviation of the World Health Organization (WHO)
+criminal_charge   homicide
+time              night
+duration          hours
+location          downtown
+misc              COVID-19
+money             $1 million
+country           United Kingdom
+city              London
+state_or_province Florida
 ===============   ==========================   ===================================================
+
