@@ -23,7 +23,7 @@ Request articles by Feed ID (businessfeed1) ::
 
 Get a Feed
 ------------
-Acces the generated articles of a feed as a JSON
+Access the generated articles of a feed as a JSON
 
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
