@@ -18,15 +18,13 @@ first we provide a list of publications, we chose the "Relevant News Sources" th
 
 Next we type out our query, in this case we're interested in news about celebrities in relation the united kingdom, this can imply that a celebrity is british, or that they are visiting the UK or something similar.
 
-Our Query is the following:
+Our Query is the following ::
 
-entertainment, movie, celebrities, celebrity, celeb, drama, film, fashion, tv, culture, music, gossip
+    entertainment, movie, celebrities, celebrity, celeb, drama, film, fashion, tv, culture, music, gossip
+    AND
+    country:uk, country:united kingdom, country:england, city:london, city:manchester
+    match:0.3
 
-AND
-
-country:uk, country:united kingdom, country:england, city:london, city:manchester
-
-match:0.3
 
 The first list is a list of categories, so an article must contain at least one of these categories, for instance "celebrity".
 The second list after the "and" operand, is a second requirement for the article, in this case the article must contain at least one reference to either the country UK or England, or the city London or manchester.
