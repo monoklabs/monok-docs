@@ -39,7 +39,7 @@ Example of a French Health Feed
 
 .. image:: images/frenchhealthfeed.png
 
-In this example, we're generating news videos with corresponding news articles, about health topics regarding france and french citizens. We make use of the "Video Generation" plugin that attempts to generate a video using the generated article text and corresponding fair use images and videos. We don't provide any publication sources, thus ensuring all possible sources are used to generate articles in this feed. Included in the plugin list is the "Geolocation" plugin, that attempts to detect the longitude and latitude of each article generated, so we may know where in France each article is mainly about.
+In this example, we're generating news videos with corresponding news articles, about health topics regarding france and french citizens. We make use of the "Video Generation" plugin that attempts to generate a video using the generated article text and corresponding fair use images and videos. We don't provide any publication sources, thus ensuring all possible sources are used to generate articles in this feed. Included in the plugin list is the "Geo Location" plugin, that attempts to detect the longitude and latitude of each article generated, so we may know where in France each article is mainly about.
 
 Our Query is the following ::
 
