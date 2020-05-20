@@ -34,5 +34,17 @@ Finally we chose the plugins we wish to run, in this example we've chosen the "A
 
 
 
-Example of a Business News Feed
+Example of a French Health Feed
 --------------------------------------------
+
+.. image:: images/frenchhealthfeed.png
+
+In this example, we're generating news videos with corresponding news articles, about health topics regarding france and french citizens. We make use of the "Video Generation" plugin that attempts to generate a video using the generated article text and corresponding fair use images and videos. We don't provide any publication sources, thus ensuring all possible sources are used to generate articles in this feed.
+
+Our Query is the following ::
+
+    health, cause_of_death:illness, organization:who
+    AND
+    country:france, nationality:french, city:paris, state_or_province:champagne
+
+We make use of the **organization** prefix to select articles that contain the abbreviation for the World Health Organization (WHO).
