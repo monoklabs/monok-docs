@@ -1,4 +1,4 @@
-Setup a News Feed
+Setup Article Generation
 ========
 
 Setting up an article generation news feed is done by using the profile page of your monok account.
