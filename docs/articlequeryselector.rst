@@ -8,29 +8,29 @@ articles you wish to list, or with the "Article Generation" or "Video Generation
 With the **AND** operand, you can express selection using boolean algebra.
 
 ====================   ==========================   ===================================================
-Prefix                  Value                        Description     
+Prefix                  Example Value                Description     
 ====================   ==========================   ===================================================
 **Empty**               music                        The Default prefix is "Category", omitting a prefix 
                                                      simple implies you wish to match the category of an article. 
-                                                     Match any article with the category "music"
-category                music                        Match any article with the category "music"
-title                   crisis                       Match any article with the word "crisis" in its title
-text                    revolution                   Match with the word "revolution" in its article text
+                                                     This one will match articles with the category "music"
+category                music                        Match articles with the category "music"
+title                   crisis                       Match articles with the word "crisis" in their title
+text                    revolution                   Match articles with the word "revolution" in their article text
 nationality             french                       Matches the word "french" when used to denote nationality
-religion                catholic                     m
-ordinal                 first                        d
-authors                 robert
-cause_of_death          illnes
-ideology                socialist
-person                  Peter Parker
+religion                catholic                     Matches the word "catholic" when used to refer to religion
+ordinal                 first                        Matches ordinals such as "Second" or "1st", this one one matches "first"                                                      when used as an ordinal
+authors                 robert                       Matches the full or part of the full name of one of the authors of an                                                        article
+cause_of_death          illnes                       Matches the word "illness" when used as a cause of death
+ideology                socialist                    Matches the word "socialist" when used to denote the ideologi of                                                              something or someone
+person                  Peter Parker                 Matches the person name of someone, in this case "Peter Parker"
 organization            who                          Matches the abbreviation of the World Health Organization (WHO)
-criminal_charge         homicide
-time                    night
+criminal_charge         homicide                     Matches legal criminal charges such as "robbery" or in this case                                                              "homicide"
+time                    night                        Matches time references in an article such as "evening" or "4:00pm",                                                          in this case "night"
 duration                hours
 location                downtown
 misc                    COVID-19
 money                   $1 million
-country                 United Kingdom
+country                 United Kingdom               Match 
 city                    London
 state_or_province       Florida
 ====================   ==========================   ===================================================
