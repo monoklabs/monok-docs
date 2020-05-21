@@ -26,12 +26,12 @@ person                  Peter Parker                 Matches the person name of 
 organization            who                          Matches the abbreviation of the World Health Organization (WHO)
 criminal_charge         homicide                     Matches legal criminal charges such as "robbery" or in this case                                                              "homicide"
 time                    night                        Matches time references in an article such as "evening" or "4:00pm",                                                          in this case "night"
-duration                hours
-location                downtown
+duration                hours                        Matches any form of duration such as "4 seconds" or in this case "hours"
+location                downtown                     Matches locations such as "village" or in this case "downtown"
 misc                    COVID-19
-money                   $1 million
-country                 United Kingdom               Match 
-city                    London
-state_or_province       Florida
+money                   $1 million                   Matches any reference of money values such as "One Euro" or in this case                                                      "$1 million"
+country                 United Kingdom               Match the reference of a country, i.e "UK" or "United Kingdom"
+city                    London                       Matches a word when used as the name of a city, such as "Paris" or in                                                        this case "London"
+state_or_province       Florida                      Matches a state or a province reference such as "Anbar" or "Champagne"                                                        or in this case "Florida"
 ====================   ==========================   ===================================================
 
