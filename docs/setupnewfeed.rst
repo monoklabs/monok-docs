@@ -38,9 +38,14 @@ Finally we chose the plugins we wish to run, in this example we've chosen the "A
 
 `The nominated British rapper dies from coronavirus at the age of 47`_ - This is an article with youtube, twitter and embeded video content as well as multiple social media comments
 
+`Roy Horn, legendary wizard of duo Siegfried & Roy, dies of complications from COVID-19`_ - This article has an automatically attached relevant landscape photo
+
+
 .. _`Katharine McPhee says hubby David Foster and Prince Harry are 'like father and son'`: https://www.monok.com/puff/katharine-mcphee-says-hubby-david-foster-and-prince-harry-are-like-father-and-son
 
 .. _`The nominated British rapper dies from coronavirus at the age of 47`: https://www.monok.com/puff/the-nominated-british-rapper-dies-from-coronavirus-at-the-age-of-47
+
+.. _`Roy Horn, legendary wizard of duo Siegfried & Roy, dies of complications from COVID-19`: https://www.monok.com/puff/roy-horn-of-the-famous-vegas-band-siegfried-and-roy-dies-of-complications-of-coronavirus-at-75
 
 
 Example of a French Health Feed
