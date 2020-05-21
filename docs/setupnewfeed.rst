@@ -38,7 +38,7 @@ Finally we chose the plugins we wish to run, in this example we've chosen the "A
 
 `The nominated British rapper dies from coronavirus at the age of 47`_ - This is an article with youtube, twitter and embeded video content as well as multiple social media comments
 
-`Kevin Spacey complains about treatment over claims of sexual assault`_ - This article has an automatically attached relevant landscape photo
+`Kevin Spacey complains about treatment over claims of sexual assault`_ - This article has an automatically attached relevant photo
 
 
 .. _`Katharine McPhee says hubby David Foster and Prince Harry are 'like father and son'`: https://www.monok.com/puff/katharine-mcphee-says-hubby-david-foster-and-prince-harry-are-like-father-and-son
