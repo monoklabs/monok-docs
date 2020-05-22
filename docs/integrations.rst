@@ -26,7 +26,7 @@ Installation
 
 1. Download this `wordpress plugin`__ and install it in your wordpress admin for the website you wish to integrate with
 
-.. _`wordpress plugin`: https://restsocialexample.com/static/plugins/MonokSync.zip
+.. _`wordpress plugin`: https://www.monok.com/static/plugins/MonokSync.zip
 
 __ `wordpress plugin`_
 
