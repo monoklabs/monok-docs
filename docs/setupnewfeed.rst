@@ -61,4 +61,6 @@ Our Query is the following ::
     AND
     country:france, nationality:french, city:paris, state_or_province:champagne
 
-We make use of the **organization** prefix to select articles that contain the abbreviation for the World Health Organization (WHO).
+We make use of the **organization** prefix to select articles that contain the abbreviation for the World Health Organization (WHO). You can read more about the different types of prefixes you can use at the Article `Query Selector`_
+
+.. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
