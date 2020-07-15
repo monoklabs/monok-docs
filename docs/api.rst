@@ -23,7 +23,8 @@ Request articles by Feed ID (businessfeed1) ::
 
 Get a Feed
 ------------
-Access the generated articles of a feed as a JSON
+If the feed plugin you're runnig is "article generation", you can access the generated articles of a feed as a JSON with this request,
+the same applies for scraped articles with the funnel plugin or clusters of articles with the cluster plugin.
 
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
@@ -49,7 +50,7 @@ Get an Article
 This endpoint will return the entire article and all its meta-data as a JSON.
 
 **Type:** GET-Request
-**Example:** https://www.monok.com/api/v1/puff/protesters-block-streets-near-hong-kong-airport-after-night-of-violence
+**Example:** https://www.monok.com/api/v1/puff/band-lady-a-files-legal-action-against-blues-singer-anita-lady-a-white
 
 ===============   ===================================================
  URL Endpoint       https://www.monok.com/api/v1/puff/​[article Id]                        
