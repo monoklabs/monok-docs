@@ -23,26 +23,30 @@ Request articles by Feed ID (businessfeed1) ::
 
 Get a Feed
 ------------
-If the feed plugin you're runnig is "article generation", you can access the generated articles of a feed as a JSON with this request,
-the same applies for scraped articles with the funnel plugin or clusters of articles with the cluster plugin.
+You may access the content of a feed as a JSON with this request,
+Depending on what kind of plugin you've chosen for the feed, you'll get a clustered articles, scraped articles or generated articles.
 
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
 
+If you're running an article generation feed but wish to see the scraped articles, you can force the endpoint to return the scraped articles instead by using the "product" param.
 
-===============   ===================================================
+===================   	==================================================================
  Param                       Description                        
-===============   ===================================================
-q	          The Id of the feed (example:‘myPoliticsNews’)            
-f (optional)      The offset (f=0 return the first 10 articles, f=35 
-	          returns 10 articles after the first 35 articles), default is 0         
-c (optional)      A filter of comma-separated category
-                  names. (example: ‘business,politics’),
-                  default is all categories.
-sort (optional)   The type of sort you wish the list of generated content 
-                  to have, either ‘popularity’ for most popular first or ‘date’ for
-		  latest articles first, default is popularity.
-===============   ===================================================
+===================   	==================================================================
+q	          	The Id of the feed (example:‘myPoliticsNews’)            
+f (optional)      	The offset (f=0 return the first 10 articles, f=35 
+	          	returns 10 articles after the first 35 articles), default is 0         
+c (optional)      	A filter of comma-separated category
+                  	names. (example: ‘business,politics’),
+                  	default is all categories.
+sort (optional)   	The type of sort you wish the list of generated content 
+                  	to have, either ‘popularity’ for most popular first or ‘date’ for
+		  	latest articles first, default is popularity.
+product (optional)  	Chose what kind of content to return (generated articles, 
+			clustered articles or scraped articles), 
+			the default is the dominant plugin you've chosen.
+===================   	==================================================================
 
 
 Get an Article
