@@ -1,7 +1,7 @@
-Integration with Wordpress
+Integration
 ========
 
-There are multiple ways of integrating with established publishing tools
+There are multiple ways of integrating with established publishing tools.
 Monok allows the user to automatically generate a draft from
 the chosen article, by pushing the content to their system of
 choice.
@@ -39,3 +39,8 @@ __ `wordpress plugin`_
 __ `monok profile`_
 
 That's it, you can then start pushing out articles by opening up an article, pressing push to wordpress and chosing your wordpress url.
+
+Email
+--------
+You are also given the option of pushing out an article by email to an email address of your choice.
+In the same way one inserts a url for a wordpress website, you can also type in an email address. Press the "push to draft" button on an article once you've added the email address, to be presented with the list of emails and websites you've inputed. Click anyone to have an email automatically sent with the article.
