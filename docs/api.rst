@@ -32,7 +32,8 @@ This API Endpoint requires the News Article API Product.
 ===================   	================================================================================================
  Param                       Description                        
 ===================   	================================================================================================
-q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘)    
+q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘), 
+			learn more about the `Query Selector`_    
 s (optional)      	The number of articles returned (s=1 return 1 article, s=20 
 	          	returns 20 articles after the first 35 articles), default is 10.
 f (optional)      	The offset (f=0 return the first 10 articles, f=35 
@@ -48,6 +49,8 @@ entities (optional)     A boolean (true/false) for returning named entities in t
                   	A list of all available named entities is available here. default is false.
 ===================   	================================================================================================
 
+
+
 Clustered News Stories API
 ------------
 Search for clusters of original news articles, the returned stories will have multiple news article sources, 
@@ -60,7 +63,8 @@ This API Endpoint requires the Clustered News Stories API Product.
 ===================   	================================================================================================
  Param                       Description                        
 ===================   	================================================================================================
-q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘)    
+q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘),
+			learn more about the `Query Selector`_  
 s (optional)      	The number of articles returned (s=1 return 1 article, s=20 
 	          	returns 20 articles after the first 35 articles), default is 10.
 f (optional)      	The offset (f=0 return the first 10 articles, f=35 
@@ -72,6 +76,8 @@ c (optional)      	A filter of comma-separated category
 sort (optional)   	The type of sort you wish the list of generated content 
                   	to have, either ‘popularity’ for most popular first or ‘date’ for
 		  	latest articles first, default is popularity.
+entities (optional)     A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
+                  	A list of all available named entities is available here. default is false.
 ===================   	================================================================================================
 
 
@@ -113,3 +119,5 @@ This endpoint will return the entire article and all its meta-data as a JSON.
 ===============   ===================================================
  URL Endpoint       https://www.monok.com/api/v1/puff/​[article Id]                        
 ===============   ===================================================
+
+.. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
