@@ -21,7 +21,61 @@ Request articles by Feed ID (businessfeed1) ::
     -H "Content-Type: application/json"
     -H "x-api-token: [ API KEY ]"
 
-Get a Feed
+News Article API
+------------
+Search for original news articles from publishers much like the Google News API or similar services. The articles are returned as a JSON.
+This API Endpoint requires the News Article API Product.
+
+**Type:** GET-Request
+**Example:** https://www.monok.com/api/v1/articles/?q=politics&f=20&sort=date&entities=true
+
+===================   	================================================================================================
+ Param                       Description                        
+===================   	================================================================================================
+q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘)    
+s (optional)      	The number of articles returned (s=1 return 1 article, s=20 
+	          	returns 20 articles after the first 35 articles), default is 10.
+f (optional)      	The offset (f=0 return the first 10 articles, f=35 
+	          	returns 10 articles or your chosen s-parameter number of articles, 
+			after the first 35 articles), default is 0 
+c (optional)      	A filter of comma-separated category
+                  	names. (example: ‘business,politics’),
+                  	default is all categories.
+sort (optional)   	The type of sort you wish the list of generated content 
+                  	to have, either ‘popularity’ for most popular first or ‘date’ for
+		  	latest articles first, default is popularity.
+entities (optional)     A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
+                  	A list of all available named entities is available here. default is false.
+===================   	================================================================================================
+
+Clustered News Stories API
+------------
+Search for clusters of original news articles, the returned stories will have multiple news article sources, 
+all of which report on the same news event. The clustered articles are returned as a JSON.
+This API Endpoint requires the Clustered News Stories API Product.
+
+**Type:** GET-Request
+**Example:** https://www.monok.com/api/v1/clusters/?q=politics&f=20&sort=date&entities=true
+
+===================   	================================================================================================
+ Param                       Description                        
+===================   	================================================================================================
+q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘)    
+s (optional)      	The number of articles returned (s=1 return 1 article, s=20 
+	          	returns 20 articles after the first 35 articles), default is 10.
+f (optional)      	The offset (f=0 return the first 10 articles, f=35 
+	          	returns 10 articles or your chosen s-parameter number of articles, 
+			after the first 35 articles), default is 0 
+c (optional)      	A filter of comma-separated category
+                  	names. (example: ‘business,politics’),
+                  	default is all categories.
+sort (optional)   	The type of sort you wish the list of generated content 
+                  	to have, either ‘popularity’ for most popular first or ‘date’ for
+		  	latest articles first, default is popularity.
+===================   	================================================================================================
+
+
+Feed API
 ------------
 You may access the content of a feed as a JSON with this request,
 Depending on what kind of plugin you've chosen for the feed, you'll get a clustered articles, scraped articles or generated articles.
@@ -49,7 +103,7 @@ product (optional)  	Chose what kind of content to return (generated articles,
 ===================   	==================================================================
 
 
-Get an Article
+Article API
 ------------
 This endpoint will return the entire article and all its meta-data as a JSON.
 
