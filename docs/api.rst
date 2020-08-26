@@ -77,7 +77,7 @@ sort (optional)   	The type of sort you wish the list of generated content
                   	to have, either ‘popularity’ for most popular first or ‘date’ for
 		  	latest articles first, default is popularity.
 entities (optional)     A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
-                  	A list of all available named entities is available here. default is false.
+                  	A list of all available named entities if found in the `Query Selector`_ page. default is false.
 ===================   	================================================================================================
 
 
