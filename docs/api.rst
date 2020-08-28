@@ -49,7 +49,13 @@ entities (optional)     A boolean (true/false) for returning named entities in t
                   	A list of all available named entities is available here. default is false.
 ===================   	================================================================================================
 
-
+.. csv-table:: articles API
+   :header: "Parameter", "Default", "Description"
+   :widths: 15, 10, 30   
+   
+   "q", "", "An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘), learn more about the `Query Selector`_"
+   "s (optional)", 10, "The number of articles returned (s=1 return 1 article, s=20 returns 20 articles after the first 35 articles)"
+   "f (optional)", 0, "The offset (f=0 return the first 10 articles, f=35 returns 10 articles or your chosen s-parameter number of articles, after the first 35 articles)"
 
 Clustered News Stories API
 ------------
