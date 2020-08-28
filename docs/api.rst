@@ -29,33 +29,25 @@ This API Endpoint requires the News Article API Product.
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/articles/?q=politics&f=20&sort=date&entities=true
 
-===================   	================================================================================================
- Param                       Description                        
-===================   	================================================================================================
-q	          	An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘), 
-			learn more about the `Query Selector`_    
-s (optional)      	The number of articles returned (s=1 return 1 article, s=20 
-	          	returns 20 articles after the first 35 articles), default is 10.
-f (optional)      	The offset (f=0 return the first 10 articles, f=35 
-	          	returns 10 articles or your chosen s-parameter number of articles, 
-			after the first 35 articles), default is 0 
-c (optional)      	A filter of comma-separated category
-                  	names. (example: ‘business,politics’),
-                  	default is all categories.
-sort (optional)   	The type of sort you wish the list of generated content 
-                  	to have, either ‘popularity’ for most popular first or ‘date’ for
-		  	latest articles first, default is popularity.
-entities (optional)     A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
-                  	A list of all available named entities is available here. default is false.
-===================   	================================================================================================
-
-.. csv-table:: articles API
-   :header: "Parameter", "Default", "Description"
-   :widths: 15, 10, 30   
-   
-   "q", "", "An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘), learn more about the `Query Selector`_"
-   "s (optional)", 10, "The number of articles returned (s=1 return 1 article, s=20 returns 20 articles after the first 35 articles)"
-   "f (optional)", 0, "The offset (f=0 return the first 10 articles, f=35 returns 10 articles or your chosen s-parameter number of articles, after the first 35 articles)"
+===================	===========	================================================================================================
+ Param                    Default     	  Description                        
+===================   	===========	================================================================================================
+q	          			An Article Search Query (example:‘entertainment’ or ‘organization:samsung‘), 
+					learn more about the `Query Selector`_    
+s (optional)      	10		The number of articles returned (s=1 return 1 article, s=20 
+	          			returns 20 articles after the first 35 articles)
+f (optional)      	0		The offset (f=0 return the first 10 articles, f=35 
+	          			returns 10 articles or your chosen s-parameter number of articles, 
+					after the first 35 articles) 
+c (optional)      	all		A filter of comma-separated category
+                  			names. (example: ‘business,politics’),
+                  			default is all categories.
+sort (optional)   	popularity	The type of sort you wish the list of generated content 
+                  			to have, either ‘popularity’ for most popular first or ‘date’ for
+		  			latest articles first.
+entities (optional)     false		A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
+                  			A list of all available named entities is available here
+===================   	===========	================================================================================================
 
 Clustered News Stories API
 ------------
