@@ -6,6 +6,8 @@ Monok allows the user to automatically generate a draft from
 the chosen article, by pushing the content to their system of
 choice.
 
+.. image:: images/moredropdown.png
+
 Wordpress
 --------
 
@@ -19,7 +21,7 @@ Features
 - Quotes are styled according to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 
-.. image:: images/moredropdown.png
+
 
 Installation
 ------------
