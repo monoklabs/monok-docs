@@ -19,7 +19,7 @@ Features
 - Quotes are styled according to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 
-.. image:: images/newdraft.png
+.. image:: images/moredropdown.png
 
 Installation
 ------------
@@ -39,6 +39,10 @@ __ `wordpress plugin`_
 __ `monok profile`_
 
 That's it, you can then start pushing out articles by opening up an article, pressing push to wordpress and chosing your wordpress url.
+
+Clipboard
+--------
+By clicking "Copy to Clipboard" from the **More** dropdown menu, the article text and it's headline are automatically saved in your clipboard, enabling you to easily paste them into your editor of choice. 
 
 Email
 --------
