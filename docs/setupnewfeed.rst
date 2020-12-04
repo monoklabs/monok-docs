@@ -11,7 +11,7 @@ Setting up an article generation news feed is done by using the profile page of 
 Example of a UK Entertainment News Feed
 ---------------------------------
 
-.. image:: images/entertainmentfeed.png
+.. image:: images/ukentertainmentfeed.png
 
 In this example we'll set up an article generation feed for news about celebrities in relation to the united kingdom.
 We type out our query, in this case we're interested in news about celebrities in relation the united kingdom, this can imply that a celebrity is british, or that they are visiting the UK or something similar.
@@ -20,7 +20,7 @@ Our Query is the following ::
 
     entertainment, movie, celebrities, celebrity, celeb, drama, film, fashion, tv, culture, music, gossip
     AND
-    country:uk, country:united kingdom, country:england, city:london, city:manchester
+    country:uk,
     match:0.3
 
 
