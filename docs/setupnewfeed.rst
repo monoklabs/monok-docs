@@ -14,10 +14,7 @@ Example of a UK Entertainment News Feed
 .. image:: images/entertainmentfeed.png
 
 In this example we'll set up an article generation feed for news about celebrities in relation to the united kingdom.
-first we provide a list of publications, we chose the "Relevant News Articles" that will guess based on your query list of categories, the relevant source articles to use for your feed. If your query contains the word "music", it will automatically add and make use of news sources that are about music.
-Alternatively we could just leave the publications feed empty, as it default on "All news sources" and will thus include all possible publications.
-
-Next we type out our query, in this case we're interested in news about celebrities in relation the united kingdom, this can imply that a celebrity is british, or that they are visiting the UK or something similar.
+We type out our query, in this case we're interested in news about celebrities in relation the united kingdom, this can imply that a celebrity is british, or that they are visiting the UK or something similar.
 
 Our Query is the following ::
 
