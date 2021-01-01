@@ -7,6 +7,12 @@ If you own an article, you can also edit its generated content. By clicking on t
 - The Headline
 - The Article Text
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/NjFgU8eM428" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 Any changes you make will be stored and used for teaching Monok to write more articles the way you want them to be.
 
 .. image:: images/editmode.png
