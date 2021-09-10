@@ -118,4 +118,20 @@ This endpoint will return the entire article and all its meta-data as a JSON.
  URL Endpoint       https://www.monok.com/api/v1/puff/​[article Id]                        
 ===============   ===================================================
 
+Push Article API
+------------
+
+Any article can be pushed to your backend-system from our frontend using our Push Article API. It's essentially an integration method.
+All you need to do is open up an API endpoint in your own backend with the suffix /monok, the endpoint should also take a token to verify the request is coming from your monok account, that token is always your API-key unless you've explicitly inputed a custom token in your integration page.
+
+**Type:** POST-Request
+**Example:** https://www.myOwnWebsite.com/monok
+
+Monok will use this method to push out an article to your backend ::
+
+    $ curl -XGET -i https://www.myOwnWebsite.com/monok'
+    -H "Content-Type: application/json"
+    -H "token: [ API-Key ]"
+
+
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
