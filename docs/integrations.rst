@@ -4,14 +4,14 @@ Integration
 There are multiple ways of integrating with established publishing tools.
 Monok allows the user to automatically generate a draft from
 the chosen article, by pushing the content to their system of
-choice.
+choice. You can also automatically publish from Monok directly to your wordpress website, custom backend system or to your teams slack channel.
 
-.. image:: images/moredropdown.png
+.. image:: images/dropdown.png
 
 Wordpress
 --------
 
-A wordpress plugin is available that allows you to push out any article of your choice to your wordpress admin as a new draft.
+A wordpress plugin is available that allows you to push out any article of your choice to your wordpress admin as a new draft. The Plugin once installed also offer a settings page where you can choose default category, resolution of featured image and other important settings.
 
 Features
 ------------
@@ -20,6 +20,7 @@ Features
 - Automatic Featured Image setup
 - Quotes are styled according to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
+- Choose resolution of photos
 
 
 
@@ -45,6 +46,10 @@ That's it, you can then start pushing out articles by opening up an article, pre
 Clipboard
 --------
 By clicking "Copy to Clipboard" from the **More** dropdown menu, the article text and it's headline are automatically saved in your clipboard, enabling you to easily paste them into your editor of choice. 
+
+Slack
+--------
+If you choose the slack integration you will be asked to sign in to your slack account unless you already are. You will be presented with a list of your channels and asked to select one. Once you've selected a channel it will be added in your integration and avialable from the dropdown menu of any article. You can the push an article out to this channel with the click of a button.
 
 Email
 --------
