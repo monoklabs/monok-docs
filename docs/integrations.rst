@@ -34,7 +34,7 @@ __ `wordpress plugin`_
 
 2. Go to your `monok profile`__ and add the url of your Wordpress admin to your list of wordpress websites.
 
-.. image:: images/addtowordpress.png
+.. image:: images/integrations.png
 
 .. _`monok profile`: https://www.monok.com/profile
 
