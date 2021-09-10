@@ -133,5 +133,12 @@ Monok will use this method to push out an article to your backend ::
     -H "Content-Type: application/json"
     -H "token: [ API-Key ]"
 
+Enter the endpoint as an intergration under settings
+
+.. image:: images/apiintegration.png
+
+You will then be able to push your articles from the dropdown menu of any article as such:
+
+.. image:: images/pushpost.png
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
