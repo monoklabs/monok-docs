@@ -13,6 +13,8 @@ Wordpress
 
 A wordpress plugin is available that allows you to push out any article of your choice to your wordpress admin as a new draft. The Plugin once installed also offer a settings page where you can choose default category, resolution of featured image and other important settings.
 
+You do not need to insert your API key or even have an API key to use this integration. It is however necessary to insert the API key in your monok settings page in wordpress, to enable automatic publish to your wordpress site from monok or when an order is complete and submitted by our writers.
+
 Features
 ------------
 
