@@ -11,8 +11,10 @@ newly generated content.
 API-Key
 ------------
 
-The API is only accessible by our paying customers through a unique API key provided to
-each user. The API key is a token that a client provides when making API calls, the key is
+The API endpoints are accessible to users that have inserted a payment method.
+The service is accessed through a unique API key provided to each user. 
+The API key is a token that a client provides when making API calls. 
+The are two ways to add the key in your request, the key can be added
 added in the request header as such:
 
 Request articles by Feed ID (businessfeed1) ::
@@ -20,6 +22,10 @@ Request articles by Feed ID (businessfeed1) ::
     $ curl -XGET -i 'https://www.monok.com/api/v1/feed?q=businessfeed1'
     -H "Content-Type: application/json"
     -H "x-api-token: [ API KEY ]"
+    
+Request articles by Feed ID (businessfeed1) with the API key in a query parameter::    
+
+    $ curl -XGET -i 'https://www.monok.com/api/v1/feed?q=businessfeed1&apikey=[ API KEY ]'
 
 News Article API
 ------------
@@ -82,7 +88,8 @@ entities (optional)     false		| A boolean (true/false) for returning named enti
 Feed API
 ------------
 You may access the content of a feed as a JSON with this request,
-Depending on what kind of plugin you've chosen for the feed, you'll get a clustered articles, scraped articles or generated articles.
+Depending on what kind of plugin you've chosen for the feed, you'll get clustered articles, scraped articles or generated articles.
+You must have some access to the feed and provide the feed Id.
 
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
