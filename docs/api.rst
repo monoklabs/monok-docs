@@ -140,8 +140,8 @@ All you need to do is open up an API endpoint in your own backend with the suffi
 
 Monok will use this method to push out an article to your backend ::
 
-    $ curl -XGET -i https://www.myOwnWebsite.com/monok'
-    -H "Content-Type: application/json"
+    $ curl -XPOST -i https://www.myOwnWebsite.com/monok'
+    -H "Content-Type: applicatiGETon/json"
     -H "token: [ API-Key ]"
 
 Enter the endpoint as an intergration under settings
@@ -151,6 +151,8 @@ Enter the endpoint as an intergration under settings
 You will then be able to push your articles from the dropdown menu of any article as such:
 
 .. image:: images/pushpost.png
+
+This is also how articles can be pushed automatically to your website once a human edit is complete and submitted.
 
 Article Text Format
 ---------------------
@@ -173,9 +175,9 @@ The article text is formatted using markdown with occasional JSON injections rep
 	"username": "XboxP3"
 	}
       
-We recommend spliting the article text at every newline (**\n**) and validating whether the item is markdown text or a JSON object. Depending on which it is, you can compile the markdown to HTML and the JSON object to your own HTML compiler. For wordpress for instance, markdown should be compiled to HTML and JSON should be evaluated, for twitter objects and youtube object, inserting the url field is sufficient for wordpress to understand that this is an embeded tweet or youtube video, whilst for instagram post, you will need to insert an iframe directed to the url.
+We recommend spliting the article text at every newline (**\\n**) and validating whether the item is markdown text or a JSON object. Depending on which it is, you can compile the markdown to HTML and the JSON object to your own HTML compiler. For wordpress for instance, markdown should be compiled to HTML and JSON should be evaluated, for twitter objects and youtube object, inserting the url field is sufficient for wordpress to understand that this is an embeded tweet or youtube video, whilst for instagram post, you will need to insert an iframe directed to the url.
 
-An article JSON also comes with a thumbnail url, this is the easiest way to download the visual focus object - more commonly known as a "featured image" - as a photo, whether it's a video screenshot or just another photo. Sometimes however, you will be presented with another field in the JSON, a "photoData" field. This is a base64 encoding of a PNG photo. You should always try to favor this photo over any thumbnail url or visual focus object. This is the whole photo provided to you for storing in your image database, as a PNG file.
+An article JSON also comes with a thumbnail url, this is the easiest way to download the visual focus object - more commonly known as a "featured image" - as a photo, whether it's a video screenshot or just another photo. Sometimes however, you will be presented with another field in the JSON, a "thumbImageData" field. This is a base64 encoding of a PNG photo. You should always try to favor this photo over any thumbnail url or visual focus object. This is the whole photo provided to you for storing in your image database, as a PNG file.
 
 If you're not interested in re-building the article text into HTML for your Strapi or Wordpress integration, then we recommend using the HTML field in the JSON, this field provides you with the whole article, as a wordpress ready HTML rendition.
 
