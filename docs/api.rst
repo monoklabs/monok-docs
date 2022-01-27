@@ -152,7 +152,9 @@ You will then be able to push your articles from the dropdown menu of any articl
 
 .. image:: images/pushpost.png
 
-The article text is formatted using markdown with occasional JSON injections representing widgets, that is: Embeded Tweets, Instagram posts, Youtube videos or Quotes.
+Article Text Format
+---------------------
+The article text is formatted using markdown with occasional JSON injections representing widgets, that is: Embeded Tweets, Instagram posts, Youtube videos or Quotes. Here's an example of how a tweet can look like injected into an article.
 
 .. code-block:: JSON
 
@@ -172,9 +174,8 @@ The article text is formatted using markdown with occasional JSON injections rep
 	}
       
 
-
-
-
 An article JSON also comes with a thumbnail url, this is the easiest way to download the visual focus object as a photo, whether it's a video screenshot or just another photo. Sometimes however, you will be presented with another field in the JSON, a "photoData" field. This is a base64 encoding of a PNG photo. You should always try to favor this photo over any thumbnail url or visual focus object. This is the whole photo provided to you for storing in your image database, as a PNG file.
+
+If you're not interested in re-building the article text into HTML for your Strapi or Wordpress integration, then we recommend using the HTML field in the JSON, this field provides you with the whole article, as a wordpress ready HTML rendition.
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
