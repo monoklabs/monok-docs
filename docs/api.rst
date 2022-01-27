@@ -52,7 +52,11 @@ sort (optional)   	popularity	| The type of sort you wish the list of generated 
                   			| to have, either ‘popularity’ for most popular first or ‘date’ for
 		  			| latest articles first.
 entities (optional)     false		| A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
-                  			| A list of all available named entities if found in the `Query Selector`_ page
+                  			| A list of all available named entities is found in the `Query Selector`_ page
+characters (opt)   	200		| Articles are by default returned with a short 200 character snippet of
+                  			| the original article text, to expand this you can set this character limit
+full (optional)   	false		| Articles are by default returned with a short snippet of the original article text,
+                  			| to see the full article text, set this parameter to true
 ===================   	===========	================================================================================================
 
 Clustered News Stories API
@@ -81,7 +85,7 @@ sort (optional)   	popularity	| The type of sort you wish the list of generated 
                   			| to have, either ‘popularity’ for most popular first or ‘date’ for
 		  			| latest articles first.
 entities (optional)     false		| A boolean (true/false) for returning named entities in the article. (example: ‘entities=true’),
-                  			| A list of all available named entities if found in the `Query Selector`_ page
+                  			| A list of all available named entities is found in the `Query Selector`_ page
 ===================   	===========	================================================================================================
 
 
@@ -129,7 +133,7 @@ Push Article API
 ------------
 
 Any article can be pushed to your backend-system from our frontend using our Push Article API. It's essentially an integration method.
-All you need to do is open up an API endpoint in your own backend with the suffix /monok, the endpoint should also take a token to verify the request is coming from your monok account, that token is always your API-key unless you've explicitly inputed a custom token in your integration page.
+All you need to do is open up an API endpoint in your own backend with the suffix **/monok**, the endpoint should also take a token to verify the request is coming from your monok account, that token is always your API-key unless you've explicitly inputed a custom token in your settings page.
 
 **Type:** POST-Request
 **Example:** https://www.myOwnWebsite.com/monok
@@ -147,5 +151,34 @@ Enter the endpoint as an intergration under settings
 You will then be able to push your articles from the dropdown menu of any article as such:
 
 .. image:: images/pushpost.png
+
+The article text is formatted using markdown with occasional JSON injections representing widgets, that is: Embeded Tweets, Instagram posts, Youtube videos or Quotes.
+
+.. code-block:: RST
+
+  .. example-code::
+
+    .. code-block:: JSON
+
+      	{
+	"data": [
+	{
+	"name": "unknown",
+	"text": "Had good calls this week with leaders at Sony. I confirmed our intent to honor all existing agreements upon acquisition of Activision Blizzard and our desire to keep Call of Duty on PlayStation. Sony is an important part of our industry, and we value our relationship.January 20, 2022"
+	}
+	],
+	"weight": 1,
+	"id": "1484273335139651585",
+	"avatar": "https://twitter.com/XboxP3/profile_image?size=bigger",
+	"type": "twitter",
+	"url": "https://twitter.com/XboxP3/status/1484273335139651585",
+	"username": "XboxP3"
+	}
+      
+
+
+
+
+An article JSON also comes with a thumbnail url, this is the easiest way to download the visual focus object as a photo, whether it's a video screenshot or just another photo. Sometimes however, you will be presented with another field in the JSON, a "photoData" field. This is a base64 encoding of a PNG photo. You should always try to favor this photo over any thumbnail url or visual focus object. This is the whole photo provided to you for storing in your image database, as a PNG file.
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
