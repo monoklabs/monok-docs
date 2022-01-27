@@ -154,13 +154,9 @@ You will then be able to push your articles from the dropdown menu of any articl
 
 The article text is formatted using markdown with occasional JSON injections representing widgets, that is: Embeded Tweets, Instagram posts, Youtube videos or Quotes.
 
-.. code-block:: RST
+.. code-block:: JSON
 
-  .. example-code::
-
-    .. code-block:: JSON
-
-      	{
+	{
 	"data": [
 	{
 	"name": "unknown",
