@@ -15,7 +15,7 @@ The API endpoints are accessible to users that have inserted a payment method.
 The service is accessed through a unique API key provided to each user. 
 The API key is a token that a client provides when making API calls. 
 The are two ways to add the key in your request, the key can be added
-added in the request header as such:
+in the request header as such:
 
 Request articles by Feed ID (businessfeed1) ::
 
@@ -175,10 +175,16 @@ The article text is formatted using markdown with occasional JSON injections rep
 	"username": "XboxP3"
 	}
       
-We recommend spliting the article text at every newline (**\\n**) and validating whether the item is markdown text or a JSON object. Depending on which it is, you can compile the markdown to HTML and the JSON object to your own HTML compiler. For wordpress for instance, markdown should be compiled to HTML and JSON should be evaluated, for twitter objects and youtube object, inserting the url field is sufficient for wordpress to understand that this is an embeded tweet or youtube video, whilst for instagram post, you will need to insert an iframe directed to the url.
+We recommend spliting the article text at every newline (**\\n**) and validating whether the item is markdown text or a JSON object.
+Depending on which it is, you can compile the markdown to HTML and the JSON object to your own HTML compiler. For wordpress for instance, markdown should be compiled to HTML and JSON should be evaluated, for twitter objects and youtube object, inserting the url field is sufficient for wordpress to understand that this is an embeded tweet or youtube video, whilst for instagram post, you will need to insert an iframe directed to the url.
 
+We recommend using `Drawdown`_ by Adam Legget, as it is small (~4 KB), and compiles Monok articles well, into HTML.
+
+Featured Image
+**********************
 An article JSON also comes with a thumbnail url, this is the easiest way to download the visual focus object - more commonly known as a "featured image" - as a photo, whether it's a video screenshot or just another photo. Sometimes however, you will be presented with another field in the JSON, a "thumbImageData" field. This is a base64 encoding of a PNG photo. You should always try to favor this photo over any thumbnail url or visual focus object. This is the whole photo provided to you for storing in your image database, as a PNG file.
 
 If you're not interested in re-building the article text into HTML for your Strapi or Wordpress integration, then we recommend using the HTML field in the JSON, this field provides you with the whole article, as a wordpress ready HTML rendition.
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
+.. _`Drawdown`: https://github.com/adamvleggett/drawdown
