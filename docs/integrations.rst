@@ -37,6 +37,8 @@ __ `wordpress plugin`_
 
 2. Go to your `monok profile`__ and add the url of your Wordpress admin to your list of wordpress websites.
 
+3. [Optional] To enable the ability to directly publish from Monok to your wordpress website, you will need to go to the monok settings page in your wordpress site, and insert your API-key. 
+
 .. image:: images/integrations.png
 
 .. _`monok profile`: https://www.monok.com/profile
