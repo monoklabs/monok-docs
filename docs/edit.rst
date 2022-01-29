@@ -6,6 +6,9 @@ If you own an article, you can also edit its generated content. By clicking on t
 - Choosing a different photo from a list of relevant photos
 - The Headline
 - The Article Text
+- Inserting Tweets, Instagram posts, Videos into the article texts
+- Adding Links
+- Formatting the texts with sub-headings, bold etc
 
 .. raw:: html
 
