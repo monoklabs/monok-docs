@@ -194,7 +194,7 @@ When an article is published on your system, you have the option to send informa
 2. When new articles are published, they will include links to previously published articles
 3. If you make edits or changes to the text, future AI generated articles will learn from these edits and improve 
 
-The target url is /api/v1/linkback, it takes a post request with the following in the body:
+The target url is /api/v1/linkback, it takes a POST request with the following JSON body:
 
 .. code-block:: JSON
 
