@@ -186,5 +186,25 @@ An article JSON also comes with a thumbnail url, this is the easiest way to down
 
 If you're not interested in re-building the article text into HTML for your Strapi or Wordpress integration, then we recommend using the HTML field in the JSON, this field provides you with the whole article, as a wordpress ready HTML rendition.
 
+Send Back Data
+**********************
+When an article is published on your system, you have the option to send information about the article back to Monok. The are several benefits to doing this.
+
+1. You will double-link the articles so you may access the published article from Monok
+2. When new articles are published, they will include links to previously published articles
+3. If you make edits or changes to the text, future AI generated articles will learn from these edits and improve 
+
+The target url is /api/v1/supervised, it takes a post request with the following in the body:
+
+.. code-block:: JSON
+
+	{
+	"url": "https://www.natureclimatechange.com/governor-greg-abbott-on-texas-repercussion-of-severe-winter-weather/",
+	"source": "www.natureclimatechange.com",
+	"thumbnail": "https://www.natureclimatechange.com/wp-content/uploads/2022/02/3187562f6efb196adeb207e62f392f44_testcollage.png"
+	}
+      
+
+
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
 .. _`Drawdown`: https://github.com/adamvleggett/drawdown
