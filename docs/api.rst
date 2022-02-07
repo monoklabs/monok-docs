@@ -194,16 +194,23 @@ When an article is published on your system, you have the option to send informa
 2. When new articles are published, they will include links to previously published articles
 3. If you make edits or changes to the text, future AI generated articles will learn from these edits and improve 
 
-The target url is /api/v1/supervised, it takes a post request with the following in the body:
+The target url is /api/v1/linkback, it takes a post request with the following in the body:
 
 .. code-block:: JSON
 
 	{
+	"puff":{
+		"title":"Governor Greg Abbott on Texas repercussion of severe winter weather",
+		"article":"Governor Greg Abbott to be briefed on the effects of heavy winter weather on Texas at the Alternate State Operations Center [...]"
+	},
+	"id":"1t8e9-governor-greg-abbott-on-texas-repercussion-of-severe-winter-weather",
 	"url": "https://www.natureclimatechange.com/governor-greg-abbott-on-texas-repercussion-of-severe-winter-weather/",
-	"source": "www.natureclimatechange.com",
+	"source": "natureclimatechange.com",
+	"userId":"natureclimatechange.com-WP",
 	"thumbnail": "https://www.natureclimatechange.com/wp-content/uploads/2022/02/3187562f6efb196adeb207e62f392f44_testcollage.png"
 	}
-      
+
+The "id" refers to the Monok article Id, whilst the userId is just a unique identifier, we propose the domain name plus an identifier for your website, WP for wordpress for instance or Strapi for Strapi-based CMS.
 
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
