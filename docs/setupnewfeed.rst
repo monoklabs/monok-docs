@@ -21,6 +21,20 @@ Our Query is the following ::
 
 We've also gone ahead and chosen interlinking so articles have links for previously published articles, as well as social media embeds for embeded tweets and youtube videos as well as the photos options that provides us with multiple photos for each article.
 
+Example of a UK Entertainment Feed
+--------------------------------------------
+
+.. image:: images/ukentertainment.png
+
+In this example, we're generating news from a restricted geographical area (United Kingdom). We've also chosen to go with just AI Generated drafts, where no human is involved. We're also sharing the feed with a friend of ours.
+
+Our Query is the following ::
+
+    celebrties, entertainment, gossip
+
+You can read more about the different types of prefixes you can use to enhance your `Query Selector`_
+
+
 **Some Example Outputs for "UK Entertainment"**
 
 `Katharine McPhee says hubby David Foster and Prince Harry are 'like father and son'`_ - This is an article with youtube and instagram content
@@ -35,19 +49,5 @@ We've also gone ahead and chosen interlinking so articles have links for previou
 .. _`The nominated British rapper dies from coronavirus at the age of 47`: https://www.monok.com/puff/the-nominated-british-rapper-dies-from-coronavirus-at-the-age-of-47
 
 .. _`Kevin Spacey complains about treatment over claims of sexual assault`: https://www.monok.com/puff/kevin-spacey-compares-sexual-abuse-allegations-to-the-coronavirus-and-says-i-understand-what-it-s-like-being-told-you-can-t-work
-
-
-Example of a UK Entertainment Feed
---------------------------------------------
-
-.. image:: images/ukentertainment.png
-
-In this example, we're generating news from a restricted geographical area (United Kingdom). We've also chosen to go with just AI Generated drafts, where no human is involved. We're also sharing the feed with a friend of ours.
-
-Our Query is the following ::
-
-    celebrties, entertainment, gossip
-
-You can read more about the different types of prefixes you can use to enhance your `Query Selector`_
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
