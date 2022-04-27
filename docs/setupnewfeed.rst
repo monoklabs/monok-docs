@@ -7,7 +7,7 @@ Setting up an article generation news feed is done by using the profile page of 
 2. Insert the keywords for your query and any relevant location, if any
 3. Choose additional settings such as interlinking or social media embeds 
 
-Example of a UK Entertainment News Feed
+Example of a Gaming News Feed
 ---------------------------------
 
 .. image:: images/setupgaming.png
