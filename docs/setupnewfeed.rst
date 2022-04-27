@@ -37,19 +37,17 @@ We've also gone ahead and chosen interlinking so articles have links for previou
 .. _`Kevin Spacey complains about treatment over claims of sexual assault`: https://www.monok.com/puff/kevin-spacey-compares-sexual-abuse-allegations-to-the-coronavirus-and-says-i-understand-what-it-s-like-being-told-you-can-t-work
 
 
-Example of a French Health Feed
+Example of a UK Entertainment Feed
 --------------------------------------------
 
-.. image:: images/frenchhealthfeed.png
+.. image:: images/ukentertainment.png
 
-In this example, we're generating news videos with corresponding news articles, about health topics regarding france and french citizens. We make use of the "Video Generation" plugin that attempts to generate a video using the generated article text and corresponding fair use images and videos. We don't provide any publication sources, thus ensuring all possible sources are used to generate articles in this feed. Included in the plugin list is the "Geo Location" plugin, that attempts to detect the longitude and latitude of each article generated, so we may know where in France each article is mainly about.
+In this example, we're generating news from a restricted geographical area (United Kingdom). We've also chosen to go with just AI Generated drafts, where no human is involved.
 
 Our Query is the following ::
 
-    health, cause_of_death:illness, organization:who
-    AND
-    country:france, nationality:french, city:paris, state_or_province:champagne
+    celebrties, entertainment, gossip
 
-We make use of the **organization** prefix to select articles that contain the abbreviation for the World Health Organization (WHO). You can read more about the different types of prefixes you can use at the Article `Query Selector`_
+You can read more about the different types of prefixes you can use to enhance your `Query Selector`_
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
