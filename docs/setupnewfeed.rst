@@ -12,7 +12,7 @@ Example of a UK Entertainment News Feed
 
 .. image:: images/setupgaming.png
 
-In this example we've set up an article generation feed for news about gaming consoles. We've chosen 2 articles every Weekday (Mon-Fri). We've also chosen a 600 word human editing service, so articles are automatically passed through a human editor that expands and edits the articles.
+In this example we've set up an article generation feed for news about gaming consoles. We've chosen 2 articles every Weekday (Mon-Fri). We've also chosen a 600 word human editing service, so articles are automatically passed through a human editor that expands and edits the articles. When the edits are finished and submitted, the article is automatically sent as a draft or published to the target website url.
 
 Our Query is the following ::
 
@@ -42,7 +42,7 @@ Example of a UK Entertainment Feed
 
 .. image:: images/ukentertainment.png
 
-In this example, we're generating news from a restricted geographical area (United Kingdom). We've also chosen to go with just AI Generated drafts, where no human is involved.
+In this example, we're generating news from a restricted geographical area (United Kingdom). We've also chosen to go with just AI Generated drafts, where no human is involved. We're also sharing the feed with a friend of ours.
 
 Our Query is the following ::
 
