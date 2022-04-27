@@ -1,34 +1,27 @@
-Setup Article Generation
+Setup Automatic Daily Feed
 ========
 
 Setting up an article generation news feed is done by using the profile page of your monok account.
 
-1. Go to your profile page under "Settings" and add a new feed.
-2. Insert the keywords for your query
-3. chose the plugin "Article Generation"
-4. Chose the publications/sources you wish to use or leave empty for all sources.
+1. Go to your profile page and add a new feed.
+2. Insert the keywords for your query and any relevant location, if any
+3. Choose additional settings such as interlinking or social media embeds 
 
 Example of a UK Entertainment News Feed
 ---------------------------------
 
-.. image:: images/ukentertainmentfeed.png
+.. image:: images/setupgaming.png
 
-In this example we'll set up an article generation feed for news about celebrities in relation to the united kingdom.
-We type out our query, in this case we're interested in news about celebrities in relation the united kingdom, this can imply that a celebrity is british, or that they are visiting the UK or something similar.
+In this example we've set up an article generation feed for news about gaming consoles. We've chosen 2 articles every Weekday (Mon-Fri). We've also chosen a 600 word human editing service, so articles are automatically passed through a human editor that expands and edits the articles.
 
 Our Query is the following ::
 
-    entertainment, movie, celebrities, celebrity, celeb, drama, film, fashion, tv, culture, music, gossip
-    AND
-    country:uk
+    nintendo, xbox, playstation
 
 
-The first list is a list of categories, so an article must contain at least one of these categories, for instance "celebrity".
-The second list after the "and" operand, is a second requirement for the article, in this case the article must contain at least one reference to either the country UK or England, or the city London or manchester.
+We've also gone ahead and chosen interlinking so articles have links for previously published articles, as well as social media embeds for embeded tweets and youtube videos as well as the photos options that provides us with multiple photos for each article.
 
-Finally we chose the plugins we wish to run, in this example we've chosen the "Article Generation" plugin to generate an article text, but also the "Images" plugin that will search for and attach a relevant image that can be used for commercial projects, they are either public domain photos or under the creative commons license. Finally we've added the "Social Media Comments" to attach comments about this toppic to the article from twitter and reddit. These are not embeded but instead show up at the bottom as social media commentary.
-
-**Some Example Outputs**
+**Some Example Outputs for "UK Entertainment"**
 
 `Katharine McPhee says hubby David Foster and Prince Harry are 'like father and son'`_ - This is an article with youtube and instagram content
 
