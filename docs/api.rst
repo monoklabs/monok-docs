@@ -186,6 +186,8 @@ An article JSON also comes with a thumbnail url, this is the easiest way to down
 
 If you're not interested in re-building the article text into HTML for your Strapi or Wordpress integration, then we recommend using the HTML field in the JSON, this field provides you with the whole article, as a wordpress ready HTML rendition.
 
+Many servers limit the amount of data you can send to them. When a thumbImageData field is sent, it can exceed that limit, thus yielding a `413 Payload Too Large`_ error. To resolve this issue, make sure your Nginx value for client_max_body_size is larger than 10mb.
+
 Send Back Data
 **********************
 When an article is published on your system, you have the option to send information about the article back to Monok. The are several benefits to doing this.
@@ -215,3 +217,4 @@ The "id" refers to the Monok article Id, whilst the userId is just a unique iden
 
 .. _`Query Selector`: https://docs.monok.com/en/latest/articlequeryselector.html
 .. _`Drawdown`: https://github.com/adamvleggett/drawdown
+.. _`413 Payload Too Large`: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413
