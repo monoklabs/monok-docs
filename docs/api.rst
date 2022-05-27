@@ -91,14 +91,12 @@ entities (optional)     false		| A boolean (true/false) for returning named enti
 
 Feed API
 ------------
-You may access the content of a feed as a JSON with this request,
-Depending on what kind of plugin you've chosen for the feed, you'll get clustered articles, scraped articles or generated articles.
-You must have some access to the feed and provide the feed Id.
+You may access the content of a feed as a JSON with this request, You must have some access to the feed and provide the feed Id.
 
 **Type:** GET-Request
 **Example:** https://www.monok.com/api/v1/feed/?q=en&f=20&sort=date&c=business
 
-If you're running an article generation feed but wish to see the scraped articles, you can force the endpoint to return the scraped articles instead by using the "product" param.
+If you wish to see the scraped articles for the feed or the story clusters, you can force the endpoint to return the scraped articles or the story clusters instead, by using the "product" parameter.
 
 ===================   	==================================================================
  Param                       Description                        
@@ -113,8 +111,7 @@ sort (optional)   	The type of sort you wish the list of generated content
                   	to have, either ‘popularity’ for most popular first or ‘date’ for
 		  	latest articles first, default is popularity.
 product (optional)  	Chose what kind of content to return (generated articles, 
-			clustered articles or scraped articles), 
-			the default is the dominant plugin you've chosen.
+			clustered articles or scraped articles)
 ===================   	==================================================================
 
 
@@ -133,7 +130,7 @@ Push Article API
 ------------
 
 Any article can be pushed to your backend-system from our frontend using our Push Article API. It's essentially an integration method.
-All you need to do is open up an API endpoint in your own backend with the suffix **/monok**, the endpoint should also take a token to verify the request is coming from your monok account, that token is always your API-key unless you've explicitly inputed a custom token in your settings page.
+All you need to do is open up an API endpoint in your own backend with the suffix **/monok**, the endpoint should also take a token to verify the request is coming from your monok account, that token is always your own API-key unless you've explicitly inputed a custom token in your settings page when you added the target endpoint.
 
 **Type:** POST-Request
 **Example:** https://www.myOwnWebsite.com/monok
