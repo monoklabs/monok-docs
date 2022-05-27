@@ -1,7 +1,7 @@
 Frequently Asked Questions
 ========
 
-If you have any questions you failt to find here, feel free to contact us at contact@monok.com
+If you have any questions you fail to find here, feel free to contact us at contact@monok.com
 
 **Are these articles plagiarism?**
 
