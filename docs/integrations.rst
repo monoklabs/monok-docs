@@ -18,8 +18,10 @@ You do not need to insert your API key or even have an API key to use this integ
 Features
 **********************
 
-- Automatic Category setup
+- Automatic category matching
 - Automatic Featured Image setup
+- Choose post type
+- Choose default author
 - Quotes are styled according to your theme
 - All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
 - Choose resolution of photos
