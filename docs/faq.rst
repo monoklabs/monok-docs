@@ -16,15 +16,19 @@ Our AI articles are indistinguishable from human written articles to a search en
 and can occasionally score better than actual human written articles as shown by `this paper`_ from The University of Brighton.
 
 **Do you sell the same articles to twice to two different users?**
+
 No, we provide each client with their own unique content.
 
 **How new/fresh can a story be, for the AI to write about it?**
+
 The system demands at least 2 sources for a story, in order for the AI to summarize it. If you also want human edit, there will be a delay that varies on when the story is ordered for human edit. A news story usually spans three days with various sources publishing it throughout that time, as has been measured by our research. Our system ensures the article is generated within the first day, in general the time-lag is between 30 minutes and 8 hours.
 
 **Do you use GPT-3/OpenAI/3rd-party API’s?**
+
 No, our company uses a proprietary method based on years of researching. This method is a de-facto state-of-the-art news summarizer.
 
 **How come you don’t use GPT-3?**
+
 Because current machine learning models for text generation work like auto-complete, and systematically introduce random, irrelevant facts, not included in the actual story. They may sound great to read, but they are fake news by default.
 
 
