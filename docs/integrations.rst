@@ -16,7 +16,7 @@ A wordpress plugin is available that allows you to push out any article of your 
 You do not need to insert your API key or even have an API key to use this integration. It is however necessary to insert the API key in your monok settings page in wordpress if you'd like to enable automatic publish to your wordpress site from monok when you press "publish" from the dropdown or when an order is complete and submitted by our writers.
 
 Features
-------------
+**********************
 
 - Automatic Category setup
 - Automatic Featured Image setup
@@ -27,7 +27,7 @@ Features
 
 
 Installation
-------------
+**********************
 
 1. Download this `wordpress plugin`__ and install it in your wordpress admin for the website you wish to integrate with
 
