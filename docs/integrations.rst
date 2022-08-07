@@ -39,7 +39,7 @@ __ `wordpress plugin`_
 
 2. Go to your `monok profile`__ and add the url of your Wordpress admin to your list of wordpress websites.
 
-3. [Optional] To enable the ability to directly publish from Monok to your wordpress website, you will need to go to the monok settings page in your wordpress site, and insert your API-key. 
+3. To enable the ability to directly publish from Monok to your wordpress website, you will need to go to the monok settings page in your wordpress site, and insert your API-key. 
 
 .. image:: images/integrations.png
 
@@ -48,6 +48,19 @@ __ `wordpress plugin`_
 __ `monok profile`_
 
 That's it, you can then start pushing out articles by opening up an article, pressing push to wordpress and chosing your wordpress url.
+
+Troubleshooting
+**********************
+
+Many servers limit the amount of data you can send to them. When a thumbImageData field is sent, it can exceed that limit, thus yielding a `413 Payload Too Large`_ error. To resolve this issue, make sure your Nginx value for client_max_body_size is larger than 10mb.
+
+In some cases, the website has limited POST and GET calls by restriction endpoints through Nginx. To resolve this, open up the following endpoint:
+
+wetten.com/us/wp-json/monok/*
+
+The wildcard is there because there are two paths, Nginx configurations understands wildcards
+
+If your Nginx setup resitricts IP's, open it up for this address: 51.15.93.77
 
 Clipboard
 --------
@@ -61,3 +74,5 @@ Email
 --------
 You are also given the option of pushing out an article by email to an email address of your choice.
 In the same way one inserts a url for a wordpress website, you can also type in an email address. Press the "push to draft" button on an article once you've added the email address, to be presented with the list of emails and websites you've inputed. Click anyone to have an email automatically sent with the article.
+
+.. _`413 Payload Too Large`: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413
