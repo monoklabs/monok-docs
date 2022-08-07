@@ -58,7 +58,7 @@ In some cases, the website has limited POST and GET calls by restriction of endp
 
 website.com/wp-json/monok/*
 
-The wildcard is there because there are two paths, Nginx configurations understands wildcards
+The wildcard is there because there are two paths, Nginx configurations understand wildcards
 
 If your Nginx setup resitricts IP's, open it up for this address: 51.15.93.77
 
