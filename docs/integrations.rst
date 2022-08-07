@@ -54,7 +54,7 @@ Troubleshooting
 
 Many servers limit the amount of data you can send to them. When a thumbImageData field is sent, it can exceed that limit, thus yielding a `413 Payload Too Large`_ error. To resolve this issue, make sure your Nginx value for client_max_body_size is larger than 10mb.
 
-In some cases, the website has limited POST and GET calls by restriction endpoints through Nginx. To resolve this, open up the following endpoint:
+In some cases, the website has limited POST and GET calls by restriction of endpoints through Nginx. To resolve this, open up the following endpoint:
 
 wetten.com/us/wp-json/monok/*
 
