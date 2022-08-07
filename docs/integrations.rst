@@ -56,7 +56,7 @@ Many servers limit the amount of data you can send to them. When a thumbImageDat
 
 In some cases, the website has limited POST and GET calls by restriction of endpoints through Nginx. To resolve this, open up the following endpoint:
 
-wetten.com/us/wp-json/monok/*
+website.com/wp-json/monok/*
 
 The wildcard is there because there are two paths, Nginx configurations understands wildcards
 
