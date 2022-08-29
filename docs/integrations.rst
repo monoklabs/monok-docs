@@ -62,6 +62,10 @@ The wildcard is there because there are two paths, Nginx configurations understa
 
 If your Nginx setup resitricts IP's, open it up for this address: 51.15.93.77
 
+Embedding content such as tweets is easy with Wordpress. By default Monok inserts the url for a youtube or a tweet as new line in the text. If you've disabled this feature on Wordpress, you can instead embed as HTML or as a shortcode.
+
+Our shortcode for twitter is [twitter ="..."]
+
 Clipboard
 --------
 By clicking "Copy to Clipboard" from the **More** dropdown menu, the article text and it's headline are automatically saved in your clipboard, enabling you to easily paste them into your editor of choice. 
