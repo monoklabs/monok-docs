@@ -110,8 +110,8 @@ c (optional)      	A filter of comma-separated category
 sort (optional)   	The type of sort you wish the list of generated content 
                   	to have, either ‘popularity’ for most popular first or ‘date’ for
 		  	latest articles first, default is popularity.
-product (optional)  	Chose what kind of content to return (generated articles, 
-			clustered articles or scraped articles)
+product (optional)  	Choose what kind of content to return: "articlegeneration" (generated artices), 
+			"cluster" (clustered articles) or "scrape" (scraped articles)
 ===================   	==================================================================
 
 
