@@ -8,38 +8,32 @@ choice. You can also automatically publish from Monok directly to your wordpress
 
 .. image:: images/dropdown.png
 
-Wordpress
+WordPress
 --------
 
-A wordpress plugin is available that allows you to push out any article of your choice to your wordpress admin as a new draft. The Plugin once installed also offer a settings page where you can choose default category, resolution of featured image and other important settings.
-
-You do not need to insert your API key or even have an API key to use this integration. It is however necessary to insert the API key in your monok settings page in wordpress if you'd like to enable automatic publish to your wordpress site from monok when you press "publish" from the dropdown or when an order is complete and submitted by our writers.
+A wordpress plugin is available that allows you to push out any article of your choice to your WordPress admin as a new draft. Once the plugin is installed, a settings page will appear on your WordPress admin, where you can choose the default category, resolution of the featured image and other important settings.
 
 Features
 **********************
 
-- Automatic category matching
-- Automatic Featured Image setup
+- Automatic category/section matching
+- Automatic featured image setup
 - Choose post type
-- Choose default author
+- Choose the default author
 - Quotes are styled according to your theme
-- All embeded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
-- Choose resolution of photos
+- All embedded content is pushed (Youtube Video, Instagram Post, Twitter Post etc)
+- Choose the resolution of photos
+- Automatic interlinking to other posts on your site
+- Keeping track of what your own team writes so to avoid duplicate
 
 
 
 Installation
 **********************
 
-1. Download this `wordpress plugin`__ and install it in your wordpress admin for the website you wish to integrate with
+1. Download the WordPress plugin from your account and install it in your WordPress admin for the website you wish to integrate with, it is important to remember that each user has a unique and private plugin, that contains your API key and should not be shared with others.
 
-.. _`wordpress plugin`: https://www.monok.com/static/plugins/wp/monoksync.zip
-
-__ `wordpress plugin`_
-
-2. Go to your `monok profile`__ and add the url of your Wordpress admin to your list of wordpress websites.
-
-3. Go to the monok settings page in your wordpress site, and insert your API-key. 
+2. Go to your `monok profile`__ and check if your website has synced with Monok; if not, add the URL of your WordPress admin to your list of WordPress websites.
 
 .. image:: images/integrations.png
 
