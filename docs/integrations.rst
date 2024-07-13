@@ -30,8 +30,11 @@ Features
 
 Installation
 **********************
+.. _`settings page`: https://www.monok.com/profile/settings
 
-1. Download the WordPress plugin from your account and install it in your WordPress admin for the website you wish to integrate with, it is important to remember that each user has a unique and private plugin, that contains your API key and should not be shared with others.
+__ `settings page`_
+
+1. Download the WordPress plugin from your `settings page`__ and install it in your WordPress admin for the website you wish to integrate with, it is important to remember that each user has a unique and private plugin, that contains your API key and should not be shared with others.
 
 2. Go to your `monok profile`__ and check if your website has synced with Monok; if not, add the URL of your WordPress admin to your list of WordPress websites.
 
